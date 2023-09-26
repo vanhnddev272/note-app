@@ -1,3 +1,12 @@
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: calc(50% + 200px);
+}
 .divider:after,
 .divider:before {
   content: "";
@@ -5,9 +14,9 @@
   height: 1px;
   background: #eee;
 }
-.h-custom {
+/* .h-custom {
   height: calc(100% - 73px);
-}
+} */
 @media (max-width: 450px) {
   .h-custom {
     height: 100%;
